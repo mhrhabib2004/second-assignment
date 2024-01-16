@@ -1,0 +1,570 @@
+/* sherd style */
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.btn-primary {
+    width: 10.875rem;
+    height: 3.25rem;
+    border-radius: 0.5rem;
+    background: #FF5400;
+    border: none;
+
+}
+
+/* nav style */
+.nav-section {
+    width: 73.125rem;
+    margin: auto;
+    margin-top: 53px;
+}
+
+.nav-continar {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.logo-items {
+    display: flex;
+    width: 50%;
+    align-items: center;
+
+
+}
+
+.nav-titel {
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+    padding-left: 20px;
+
+}
+
+.nav-titel span {
+    color: #FF5400;
+    font-size: 2.25rem;
+    font-weight: 800;
+
+}
+
+.dot-button {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    /* top: 2.3rem; */
+    right: 1rem;
+}
+
+.dot-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px
+}
+
+.nav-icon a {
+    text-decoration: none;
+    padding: 20px;
+    color: #424247;
+    font-size: 1.125rem;
+    font-weight: 700;
+
+
+}
+
+.nav-icon a:hover {
+    color: #FF5400;
+}
+
+.nav-icon #Home {
+    color: #FF5400;
+}
+
+/* Explore-banner style */
+.Explore-banner {
+    padding-top: 3.8rem;
+
+}
+
+.Explore-banner .banner {
+    width: 73.125rem;
+    height: 31.25rem;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00)), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    align-items: center;
+    margin: auto;
+    border-radius: 1rem;
+    background-repeat: no-repeat;
+}
+
+.banner-items {
+    text-align: center;
+    padding: 6.22rem;
+
+}
+
+.banner-titel {
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+
+}
+
+.banner-drescription {
+    color: #FFF;
+}
+
+.banner-input {
+    width: 50rem;
+    height: 5.25rem;
+    margin: auto;
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.30);
+    align-items: center;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+
+}
+
+.input {
+    width: 10.875rem;
+    height: 3.25rem;
+    border-radius: 0.5rem;
+    background: #FFF;
+    margin-left: 13px;
+    padding-left: 10px;
+    border: none;
+}
+
+#input {
+    width: 10.875rem;
+    height: 3.25rem;
+    border-radius: 0.5rem;
+    background: #FFF;
+    padding-left: 10px;
+    border: none;
+}
+
+.btn-find {
+    display: flex;
+    align-items: center;
+}
+
+.btn-find-now {
+    width: 10.875rem;
+    height: 3.25rem;
+    border-radius: 0.5rem;
+    background: #FF5400;
+    font-weight: 700;
+    color: #FFF;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    border: none;
+
+}
+
+.find-btn-img {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.btn-find-now:hover {
+    cursor: pointer;
+}
+
+/* Populartours */
+
+.Populartours-section {
+    width: 73.125rem;
+    /* height: 31.25rem; */
+    display: flex;
+    align-items: center;
+    margin: auto;
+    gap: 2rem;
+    /* padding-top: px; */
+
+}
+
+.Rectangle4 {
+    height: 34.375rem;
+    width: 33.75rem;
+    /* height: 34.375rem; */
+    padding-top: 150px;
+
+}
+
+.Populartours {
+    align-items: center;
+    padding-top: 80px;
+
+}
+
+.Populartours-item {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    padding-bottom: 20px;
+
+}
+
+.Populartours-drescription {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: 30px;
+
+}
+
+.Populartours-drescription-item li {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+.Populartours-drescription-item li {
+    margin-left: 2rem;
+}
+
+
+/* Choose-Us */
+
+.Choose-Us-titel {
+    padding-top: 80px;
+    width: 73.125rem;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+
+}
+
+.Choose-Us-titel h1 {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+
+}
+
+.Choose-Us-titel p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 1.5rem;
+
+}
+
+.card-one {
+    width: 73.125rem;
+    margin: auto;
+
+}
+
+.card-one .card-one-items {
+    display: flex;
+    margin-top: 1.5rem;
+    gap: 1.5rem;
+}
+
+.card-items1 {
+    width: 35.8125rem;
+    height: 17.75rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.card-items2 {
+    width: 35.8125rem;
+    height: 17.75rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.card-items3 {
+    width: 35.8125rem;
+    height: 17.75rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    margin: auto;
+    margin-top: 1.5rem;
+}
+
+.card-items1 img {
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+.card-items2 img {
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+.card-items3 img {
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+.card-items1 h2 {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding-left: 15px;
+    padding-top: 1.5rem;
+
+}
+
+.card-items2 h2 {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding-left: 15px;
+    padding-top: 1.5rem;
+
+}
+
+.card-items3 h2 {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding-left: 15px;
+    padding-top: 1.5rem;
+
+}
+
+
+.card-items1 p {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-right: 20px;
+    padding-left: 15px;
+    padding-top: 1.5rem;
+
+}
+
+.card-items2 p {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-right: 20px;
+    padding-left: 15px;
+    padding-top: 1.5rem;
+
+}
+
+.card-items3 p {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-right: 20px;
+    padding-left: 15px;
+    padding-top: 1.5rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* responsive */
+@media screen and (max-width: 600px) {
+    body {
+        margin: 10px;
+        padding: 0;
+    }
+
+    .nav-continar,
+
+    {
+    flex-direction: column;
+    width: 100%;
+}
+
+.banner .banner-input {
+    flex-direction: column;
+    width: 13rem;
+    height: 15rem;
+}
+
+.Populartours-section {
+    flex-direction: column;
+    width: auto;
+}
+
+.card-one .card-one-items {
+    flex-direction: column;
+
+    /* height: 18.0625rem; */
+
+}
+
+.card-one {
+    width: auto;
+}
+
+
+.dot-button {
+    display: flex;
+}
+
+.nav-icon a {
+    display: none;
+}
+
+.Explore-banner .banner {
+    width: 100%;
+}
+
+.banner-titel {
+    font-size: 1.375rem;
+}
+
+.banner-items {
+    padding: 2rem;
+    margin: 0;
+}
+
+.banner-drescription {
+    line-height: 1.5rem;
+    margin-top: 1rem;
+}
+
+.Rectangle4 {
+    padding-top: 0;
+    border-radius: 5px;
+    width: 20.9375rem;
+    height: 21.375rem;
+}
+
+.Choose-Us-titel {
+    padding-top: 1rem;
+}
+
+.Choose-Us-titel h1 {
+    width: 23.4375rem;
+    font-size: 1.25rem;
+
+
+}
+
+.Choose-Us-titel p {
+    width: 23.4375rem;
+    font-size: 0.875rem;
+    margin-top: 1rem;
+}
+
+.card-items1 {
+    width: auto;
+
+}
+
+.card-items1 h2 {
+    font-size: 1.25rem;
+    font-weight: 800;
+
+}
+.card-items1 p{
+    font-size: 0.875rem;
+
+}
+.card-items2 {
+    width: auto;
+
+}
+
+.card-items2 h2 {
+    font-size: 1.25rem;
+    font-weight: 800;
+
+}
+.card-items2 p{
+    font-size: 0.875rem;
+
+}
+.card-items3 {
+    width: auto;
+
+}
+
+.card-items3 h2 {
+    font-size: 1.25rem;
+    font-weight: 800;
+
+}
+.card-items3 p{
+    font-size: 0.875rem;
+
+}
+
+}
+
+/* 
+    .dot-button {
+        display: flex;
+    }
+
+    .nav-icon {
+        display: none;
+    }
+
+    .Explore-banner .banner {
+        width: 100%;
+        margin: 10px;
+        padding: 10px;
+        margin-right: 10px;
+    }
+
+    .banner-titel {
+        font-size: 1.375rem;
+        margin-top: 30px;
+
+    }
+
+    .banner-drescription {
+        font-size: 0.875rem;
+        margin: 5px;
+        padding: 5px;
+
+    }
+
+    .banner-input {
+        flex-direction: column;
+        align-items: center;
+        width: 17.9375rem;
+        margin: 2px;
+        padding: 2px;
+        gap: 1rem;
+    }
+
+    .Populartours {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .Rectangle4 {
+        width: 100%;
+    } */
+
+
+}
