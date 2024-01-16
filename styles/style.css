@@ -239,6 +239,101 @@
     margin-left: 2rem;
 }
 
+/* drestination */
+
+.Destination-conteinar {
+    width: 73.125rem;
+    margin: auto;
+}
+
+
+.Destination-img {
+    display: flex;
+    gap: 24px;
+    padding-top: 2rem;
+}
+
+.Destination-img1 {
+    display: flex;
+    gap: 24px;
+}
+
+.Destination-img2 {
+    display: flex;
+    gap: 24px;
+}
+
+.Destination-item h1 {
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-top: 6.25rem;
+}
+
+.Destination-item p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-top: 1.5rem;
+}
+
+.Destination-img-maldip h1 {
+    position: relative;
+    bottom: 50%;
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.Destination-img-indonesia h1 {
+    position: relative;
+    bottom: 50%;
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.Destination-img1 h1 {
+    position: relative;
+    bottom: 50%;
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.desti-img-north-america {
+    position: relative;
+    bottom: 50%;
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.desti-img-kashmir h1 {
+    position: relative;
+    bottom: 50%;
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.desti-img-bangladesh h1 {
+    position: relative;
+    bottom: 50%;
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.desti-img-bandorban h1 {
+    position: relative;
+    bottom: 50%;
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+}
 
 /* Choose-Us */
 
@@ -378,6 +473,75 @@
 }
 
 
+/* footer style */
+
+footer {
+    width: 90rem;
+    height: 31.375rem;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-section1 {
+
+    display: flex;
+    align-items: center;
+    margin-left: 37rem;
+    /* margin-top: 6.87rem; */
+    padding-top: 6.87rem;
+
+}
+
+
+.footer-section1 {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+
+}
+
+.footer-section1 span {
+    color: #FF5400;
+}
+
+.footer-section2 {
+    margin-left: 20rem;
+    margin-right: 20rem;
+    padding-top: 1.5rem;
+}
+
+.footer-section2 p {
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+
+.footer-section2 img {
+    padding-top: 1.5rem;
+    align-items: center;
+    margin-left: 20rem;
+}
+
+hr {
+    width: 54.5rem;
+    height: 0.0625rem;
+    background: rgba(19, 19, 24, 0.10);
+    margin: auto;
+    margin-top: 2rem;
+}
+
+footer h5 {
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 2rem;
+
+}
+
+
+
 
 
 
@@ -390,16 +554,17 @@
 /* responsive */
 @media screen and (max-width: 600px) {
     body {
-        margin: 10px;
+        margin: 0px;
         padding: 0;
     }
 
     .nav-continar,
-
     {
     flex-direction: column;
     width: 100%;
 }
+
+
 
 .banner .banner-input {
     flex-direction: column;
@@ -411,6 +576,47 @@
     flex-direction: column;
     width: auto;
 }
+.Destination-conteinar{
+    display: none;
+}
+footer{
+    display: none;
+}
+
+/* .Destination-img {
+    width:100%;
+    flex-direction: column;
+    width: 20.9375rem;
+}
+}
+
+.Destination-img1 {
+    width: 20.9375rem;
+    flex-direction: column;
+    width: 20.9375rem;
+}
+
+.Destination-img2 {
+    width: 20.9375rem;
+    flex-direction: column;
+    width: 20.9375rem;
+}
+
+.Destination-item h1 {
+    width: 19.3125rem;
+    color: #131318;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.Destination-item p {
+    width: 19.3125rem;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 0.875rem;
+    font-weight: 400;
+} */
 
 .card-one .card-one-items {
     flex-direction: column;
@@ -418,6 +624,8 @@
     /* height: 18.0625rem; */
 
 }
+
+
 
 .card-one {
     width: auto;
@@ -484,10 +692,12 @@
     font-weight: 800;
 
 }
-.card-items1 p{
+
+.card-items1 p {
     font-size: 0.875rem;
 
 }
+
 .card-items2 {
     width: auto;
 
@@ -498,10 +708,12 @@
     font-weight: 800;
 
 }
-.card-items2 p{
+
+.card-items2 p {
     font-size: 0.875rem;
 
 }
+
 .card-items3 {
     width: auto;
 
@@ -512,11 +724,37 @@
     font-weight: 800;
 
 }
-.card-items3 p{
+
+.card-items3 p {
     font-size: 0.875rem;
 
 }
 
+footer {
+    width: auto;
+    /* width: 23.4375rem; */
+    /* height: 19.3125rem; */
+    flex-direction: column;
+}
+
+.footer-section1 {
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 800;
+    margin-left: 3rem;
+    padding-top: 2rem;
+
+}
+
+.footer-section2 p {
+    color: #5A5A5D;
+    font-size: 0.875rem;
+
+    /* font-weight: 400;
+    margin-right: 3rem; */
+    /* padding-top: 10px; */
+
+}
 }
 
 /* 
